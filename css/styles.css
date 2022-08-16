@@ -216,6 +216,7 @@
   .work-list {
     display: flex;
     justify-content: center;
+    margin-top: 35px;
   }
   .work-list li {
     margin-right: 30px;
