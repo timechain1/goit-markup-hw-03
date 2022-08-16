@@ -13,8 +13,19 @@
     margin: 0 auto;
     color: var(--main-color);
   }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   
-  /* header */
+  /* Header */
   
   .header {
     display: flex;
@@ -44,7 +55,15 @@
     color: var(--accent-color);
   }
 
-  /* main */
+  /* Container*/
+  .container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  /* Main */
   .nav-list {
     display: flex;
   }
